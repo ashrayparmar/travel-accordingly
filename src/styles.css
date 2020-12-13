@@ -1,0 +1,66 @@
+.App {
+  font-family: "Amatic SC", cursive, sans-serif;
+  text-align: center;
+  margin: auto;
+}
+
+body {
+  background-color: #ddd6fe;
+  height: 100%;
+}
+
+h1 {
+  font-size: 50px;
+}
+
+button {
+  padding: 1rem 1rem;
+  margin: 1rem 1rem;
+  font-size: 17px;
+  font-weight: 550;
+  font-family: "Amatic SC", cursive, sans-serif;
+  background-color: #fecaca;
+  cursor: pointer;
+  outline: none;
+  border-radius: 1.5rem;
+  border: 2px solid black;
+}
+
+.img {
+  height: 300px;
+  width: 400px;
+}
+
+.list {
+  border: 3px solid black;
+  list-style: none;
+  padding: 1rem 1rem;
+  margin: 1.5rem 1.5rem;
+}
+
+.output ul {
+  padding-inline-start: 0px;
+}
+
+button:hover {
+  background-color: #ef4444;
+  color: white;
+}
+
+.name {
+  font-size: 2rem;
+  text-align: center;
+  padding: 1rem 1rem;
+}
+
+.itinerary {
+  padding: 1rem 1rem;
+  text-align: center;
+  justify-items: center;
+  font-size: 1rem;
+}
+
+output {
+  text-decoration: none;
+  padding: 1rem 1rem;
+}
